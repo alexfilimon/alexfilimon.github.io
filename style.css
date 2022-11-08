@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   line-height: 1.6rem;
   color: #343a40;
@@ -9,7 +9,7 @@
 
 h1 {
   font-size: 2rem;
-  color: #2D936C;
+  color: #5ab677;
   font-weight: 500;
 }
 
@@ -36,65 +36,57 @@ p {
     color: black;
     -webkit-print-color-adjust: exact;
   }
+
   .tags .tag {
-    background-color: #2D936C !important;
+    background-color: #5ab677 !important;
   }
+
   .wrapper > .content > .block > .header .title .icon {
-    background-color: #2D936C !important;
+    background-color: #5ab677 !important;
   }
 }
-
 ul {
   list-style-position: inside;
 }
-
 .wrapper > .header {
   position: relative;
   height: 130px;
 }
-
 .wrapper > .header .left {
   width: 25%;
   height: 100%;
   position: absolute;
 }
-
 .wrapper > .header .left .avatar {
   width: 100px;
   height: 100px;
   margin: 0 auto;
 }
-
 .wrapper > .header .left .avatar .avatar-wrapper {
   border-radius: 50%;
-  border: 2px solid #2D936C;
+  border: 2px solid #5ab677;
   padding: 2px;
 }
-
 .wrapper > .header .left .avatar .avatar-wrapper img {
   display: block;
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-
 .wrapper > .header .center {
   width: 55%;
   height: 100%;
   position: absolute;
   left: 25%;
 }
-
 .wrapper > .header .center .subtitle {
   font-size: 1.2em;
   font-weight: 500;
   margin-top: 18px;
 }
-
 .wrapper > .header .center .description {
   margin-top: 10px;
 }
-
 .wrapper > .header .right {
   width: 20%;
   height: 100%;
@@ -102,31 +94,26 @@ ul {
   right: 0;
   text-align: right;
 }
-
 .wrapper > .header .right .block i {
   margin-left: 6px;
-  color: #2D936C;
+  color: #5ab677;
 }
-
 .wrapper > .content > .block {
   margin-bottom: 40px;
 }
-
 .wrapper > .content > .block > .header {
   position: relative;
   margin-bottom: 20px;
   padding: 3px 0;
 }
-
 .wrapper > .content > .block > .header .title {
   width: 25%;
   vertical-align: middle;
 }
-
 .wrapper > .content > .block > .header .title .icon {
   width: 30px;
   height: 30px;
-  background-color: #2D936C;
+  background-color: #5ab677;
   display: inline-block;
   position: absolute;
   top: 50%;
@@ -136,19 +123,16 @@ ul {
   border-radius: 50%;
   margin-right: 5px;
 }
-
 .wrapper > .content > .block > .header .title .icon i {
   margin-top: 7px;
   color: white;
   font-size: 1.1rem;
   margin-left: 1px;
 }
-
 .wrapper > .content > .block > .header .title h2 {
   margin-left: 40px;
   display: inline-block;
 }
-
 .wrapper > .content > .block > .header .delimeter {
   width: 75%;
   position: absolute;
@@ -157,13 +141,11 @@ ul {
   height: 50%;
   border-bottom: 2px dotted green;
 }
-
 .wrapper > .content > .block > .content > .subblock {
   position: relative;
   min-height: 20px;
   margin-bottom: 12px;
 }
-
 .wrapper > .content > .block > .content > .subblock .left {
   position: absolute;
   height: 100%;
@@ -172,32 +154,26 @@ ul {
   width: 25%;
   text-align: right;
 }
-
 .wrapper > .content > .block > .content > .subblock .left div {
   margin-right: 20px;
 }
-
 .wrapper > .content > .block > .content > .subblock .left .title {
-  color: #2D936C;
+  color: #5ab677;
   font-weight: 500;
   font-size: 1.1rem;
 }
-
 .wrapper > .content > .block > .content > .subblock .left .title a {
-  color: #2D936C;
+  color: #5ab677;
 }
-
 .wrapper > .content > .block > .content > .subblock .left .subtitle {
   font-weight: 400;
 }
-
 .wrapper > .content > .block > .content > .subblock .other {
   margin-left: 25%;
 }
-
 .tags .tag {
   display: inline-block;
-  background-color: #2D936C;
+  background-color: #5ab677;
   padding: 1px 8px;
   border-radius: 5px;
   color: white;

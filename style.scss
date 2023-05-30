@@ -2,10 +2,10 @@
 $base-color: #5ab677;
 $text-color: #343a40;
 
-$leftWidth: 15%;
-$centerWidth: 65%;
-$rightWidth: 20%;
-$centerAndRightWidth: 85%;
+$leftWidth: 17%;
+$centerWidth: 58%;
+$rightWidth: 25%;
+$centerAndRightWidth: 83%;
 
 // base
 
@@ -13,7 +13,7 @@ $centerAndRightWidth: 85%;
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5rem;
     color: $text-color;
 }
@@ -36,14 +36,14 @@ body {
 }
 
 p {
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 @media print {
     body {
         width: 21cm;
         height: 29.7cm;
-        margin: 4mm; 
+        margin: 6mm; 
         color: black;
         -webkit-print-color-adjust: exact; 
    } 
@@ -69,7 +69,7 @@ ul {
     // header
     >.header {
         position: relative;
-        height: 82px;
+        height: 112px;
 
         .left {
             width: $leftWidth;
@@ -85,7 +85,7 @@ ul {
             .subtitle {
                 font-size: 1.2em;
                 font-weight: 500;
-                margin-top: 10px;
+                margin-top: 20px;
             }
 
             .second-subtitle {
@@ -99,7 +99,7 @@ ul {
             }
 
             .description {
-                margin-top: 10px;
+                margin-top: 14px;
             }
         }
         .right {
@@ -124,11 +124,12 @@ ul {
     // content
     >.content {
         >.block {
-             margin-bottom: 6px;
+            margin-bottom: 40px;
+            margin-top: 20px;
 
             >.header {
                 position: relative;
-                margin-bottom: 6px;
+                margin-bottom: 8px;
                 padding: 3px 0;
 
                 .title {
@@ -151,7 +152,7 @@ ul {
                         margin-left: $leftWidth;
 
                         i {
-                            margin-top: 7px;
+                            margin-top: 6px;
                             color: white;
                             font-size: 1.1rem;
                             margin-left: 1px;
@@ -188,7 +189,7 @@ ul {
             >.content {
                 >.subblock {
                     position: relative;
-                    min-height: 20px;
+                    min-height: 23px;
                     margin-bottom: 6px;
 
                     &.large {
@@ -221,7 +222,7 @@ ul {
                         margin-left: $leftWidth;
                         .text {
                             p {
-
+                                margin-top: 13px;
                             }
                         }
                     }
@@ -235,7 +236,7 @@ ul {
     .tag {
         display: inline-block;
         background-color: $base-color;
-        padding: 1px 7px;
+        padding: 2px 8px;
         border-radius: 5px;
         color: white;
         margin-bottom: 3px;

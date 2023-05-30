@@ -2,8 +2,8 @@
   padding: 0;
   margin: 0;
   font-family: "Ubuntu", sans-serif;
-  font-size: 14px;
-  line-height: 1.6rem;
+  font-size: 16px;
+  line-height: 1.5rem;
   color: #343a40;
 }
 
@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
@@ -25,14 +25,14 @@ body {
 }
 
 p {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 @media print {
   body {
     width: 21cm;
     height: 29.7cm;
-    margin: 10mm 10mm 10mm 10mm;
+    margin: 6mm;
     color: black;
     -webkit-print-color-adjust: exact;
   }
@@ -50,45 +50,33 @@ ul {
 }
 .wrapper > .header {
   position: relative;
-  height: 130px;
+  height: 112px;
 }
 .wrapper > .header .left {
-  width: 25%;
+  width: 17%;
   height: 100%;
   position: absolute;
-}
-.wrapper > .header .left .avatar {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-}
-.wrapper > .header .left .avatar .avatar-wrapper {
-  border-radius: 50%;
-  border: 2px solid #5ab677;
-  padding: 2px;
-}
-.wrapper > .header .left .avatar .avatar-wrapper img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
 }
 .wrapper > .header .center {
-  width: 55%;
+  width: 58%;
   height: 100%;
   position: absolute;
-  left: 25%;
+  left: 17%;
 }
 .wrapper > .header .center .subtitle {
   font-size: 1.2em;
   font-weight: 500;
-  margin-top: 18px;
+  margin-top: 20px;
+}
+.wrapper > .header .center .second-subtitle {
+  font-size: 1em;
+  margin-top: 4px;
 }
 .wrapper > .header .center .description {
-  margin-top: 10px;
+  margin-top: 14px;
 }
 .wrapper > .header .right {
-  width: 20%;
+  width: 25%;
   height: 100%;
   position: absolute;
   right: 0;
@@ -100,58 +88,74 @@ ul {
 }
 .wrapper > .content > .block {
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 .wrapper > .content > .block > .header {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   padding: 3px 0;
 }
 .wrapper > .content > .block > .header .title {
-  width: 25%;
   vertical-align: middle;
+  overflow: hidden;
 }
 .wrapper > .content > .block > .header .title .icon {
   width: 30px;
   height: 30px;
   background-color: #5ab677;
-  display: inline-block;
+  display: block;
   position: absolute;
   top: 50%;
   margin-top: -15px;
-  left: 0;
+  right: 83%;
   text-align: center;
   border-radius: 50%;
-  margin-right: 5px;
+  margin-right: 20px;
+  margin-left: 17%;
 }
 .wrapper > .content > .block > .header .title .icon i {
-  margin-top: 7px;
+  margin-top: 6px;
   color: white;
   font-size: 1.1rem;
   margin-left: 1px;
 }
 .wrapper > .content > .block > .header .title h2 {
-  margin-left: 40px;
+  margin-left: 17%;
   display: inline-block;
+  position: relative;
 }
-.wrapper > .content > .block > .header .delimeter {
-  width: 75%;
+.wrapper > .content > .block > .header .title h2::after {
+  content: "";
   position: absolute;
-  right: 0;
-  top: 0;
-  height: 50%;
+  top: 50%;
+  left: 100%;
+  margin-left: 20px;
+  width: 10000px;
+  border-bottom: 2px dotted green;
+}
+.wrapper > .content > .block > .header .title h2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-right: 70px;
+  width: 10000px;
   border-bottom: 2px dotted green;
 }
 .wrapper > .content > .block > .content > .subblock {
   position: relative;
-  min-height: 20px;
-  margin-bottom: 12px;
+  min-height: 23px;
+  margin-bottom: 6px;
+}
+.wrapper > .content > .block > .content > .subblock.large {
+  min-height: 40px;
 }
 .wrapper > .content > .block > .content > .subblock .left {
   position: absolute;
   height: 100%;
   left: 0;
   top: 0;
-  width: 25%;
+  width: 17%;
   text-align: right;
 }
 .wrapper > .content > .block > .content > .subblock .left div {
@@ -169,13 +173,17 @@ ul {
   font-weight: 400;
 }
 .wrapper > .content > .block > .content > .subblock .other {
-  margin-left: 25%;
+  margin-left: 17%;
 }
+.wrapper > .content > .block > .content > .subblock .other .text p {
+  margin-top: 13px;
+}
+
 .tags .tag {
   display: inline-block;
   background-color: #5ab677;
-  padding: 1px 8px;
+  padding: 2px 8px;
   border-radius: 5px;
   color: white;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
